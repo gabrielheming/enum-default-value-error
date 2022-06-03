@@ -1,5 +1,7 @@
 # Enum with default value
 
+Repository created to demonstrate the [issue #2392](https://github.com/npgsql/efcore.pg/issues/2392)
+
 Requirements:
  * PostgreSQL database
  * .NET Core 6
@@ -47,7 +49,7 @@ Version used to test:
 
 Testing:
 
- Go to EnumResetTest and run the tests.
+ Go to EnumResetTest project and run the tests.
 
  * NpgsqlEnumResetTest: Runs against a PostgreSQL database, shows the odd behaviour
  * InMemoryEnumRestTest: Runs against an InMemory database, works fine
